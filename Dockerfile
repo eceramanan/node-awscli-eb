@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:latest
 
 RUN apk --no-cache add bash less groff jq git curl python py-pip nodejs nodejs-npm
 
