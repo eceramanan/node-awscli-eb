@@ -12,5 +12,8 @@ RUN apk add --no-cache p7zip
 
 RUN apk add --no-cache nodejs npm
 
+#Angular CLI
+RUN npm install -g @angular/cli
+
 # Make sure we land in a shell
 CMD ["/bin/bash"]
